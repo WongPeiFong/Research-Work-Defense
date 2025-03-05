@@ -1,7 +1,3 @@
-tar -xvzf netMHCIIpan-4.1a.Linux.tar.gz
-cd netMHCIIpan-4.1a
-chmod +x netMHCIIpan
-
 library(netmhc2pan)
 fasta_filename <- system.file(
   "extdata", "example.fasta", package = "netmhc2pan"
