@@ -1,7 +1,3 @@
-tar -xvzf netMHCpan-4.1b.Linux.tar.gz
-cd netMHCpan-4.1b
-chmod +x netMHCpan
-
 library(netmhcpan)
 fasta_filename <- system.file(
   "extdata", "example.fasta", package = "netmhcpan"
