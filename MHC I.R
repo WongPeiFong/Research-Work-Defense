@@ -1,5 +1,5 @@
-tar -xvzf netMHCpan-4.1.Linux.tar.gz
-cd netMHCpan-4.1
+tar -xvzf netMHCpan-4.1b.Linux.tar.gz
+cd netMHCpan-4.1b
 chmod +x netMHCpan
 
 fasta_filename <- system.file(
