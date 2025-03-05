@@ -1,4 +1,6 @@
+install_github("tzina97/netMHCpan")
 library(netmhcpan)
+install_netmhcpan("UPDATE LINK")
 fasta_filename <- system.file(
   "extdata", "example.fasta", package = "netmhcpan"
 )
